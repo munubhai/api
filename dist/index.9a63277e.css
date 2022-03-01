@@ -1,0 +1,70 @@
+table {
+  border: 2px solid blue;
+}
+head ~ body{
+  background-color: lightslategray;
+}
+
+head ~ body > h1{
+  color: white;
+}
+
+table tr {
+  background-color: black;
+}
+
+table tr :first-child {
+  color: white;
+}
+table tr :first-child::before{
+ content: '*';
+}
+
+
+table tr :nth-child(2) {
+  color: white;
+}
+table tr :nth-child(2)::after{
+  content: '*';
+ }
+
+table tr :last-child {
+  color: white;
+}
+
+
+img{
+  width: 100px;
+  height: 100px;
+}
+/*
+table tr:nth-child(odd) {
+  background-color: hsl(120, 80%, 30%);
+}
+table tr > td:last-child {
+  background-color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: hsl(120, 80%, 70%);
+}
+
+table tr:first-child {
+  background-color: hsl(60, 0%, 80%);
+}
+
+
+table tr:first-child{
+  background-color: red;
+}
+
+
+code {
+  font-size: 125%;
+}
+
+
+*/
+
+
+/*# sourceMappingURL=index.9a63277e.css.map */
